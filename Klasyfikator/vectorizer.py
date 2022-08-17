@@ -9,9 +9,7 @@ stop = pickle.load(open(
                 'pkl_objects', 
                 'stopwords.pkl'), 'rb'))
 
-
 def tokenizer(text):
-   
     tokenized = [w for w in text.split() if w not in stop]
     return tokenized
 
