@@ -3,7 +3,6 @@ import time
 class funcions_class:  
     def wait_time(self, seconds):
         while seconds > 0: 
-            #print(".",end="")
             time.sleep(1)
             seconds -= 1
         
