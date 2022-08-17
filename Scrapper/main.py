@@ -12,7 +12,7 @@ from dataclasses import replace
 # Number of comments on a single page
 number_of_comments_in_one_page = 15
 
-url = 'https://www.nazwa-portalu.pl/'
+url = 'https://www.website-name.com/'
 
 cur_dir = os.path.dirname(__file__)
 db_path = os.path.join(cur_dir, '..\Share\db\db.sqlite')
@@ -58,7 +58,7 @@ class main():
                     i += 1
 
                 except  Exception as e:
-                    print("******** Wystapil problem:", e)
+                    print("******** Something went wrong:", e)
                     pass
                 
             # Footer
